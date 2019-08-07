@@ -121,7 +121,7 @@ public class paymentController {
 		
 		//send to Simulator
 		
-		URL url = new URL("http://52.66.116.183:8080/paymentSimulator");
+		URL url = new URL("http://52.66.242.75:8080/paymentSimulator");
 		  HttpURLConnection con = (HttpURLConnection) url.openConnection(); 
 		  // add request header 
 		  con.setRequestMethod("POST");
